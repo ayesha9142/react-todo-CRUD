@@ -1,10 +1,20 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started
 
-## Available Scripts
+Run npm install to intall node modules
 
-In the project directory, you can run:
+### `npm install`
+
+Then, open a seperate terminal in your editor and run:
+
+
+### `npx json-server --watch data/db.json --port 8000`
+
+This will provide a local json server to provide an api to fetch data 
+
+Now you can run npm start in seperate terminal:
 
 ### `npm start`
 
